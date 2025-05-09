@@ -1,0 +1,177 @@
+				Progress
+
+May 6, 2023(First Work)
+Setup Config:
+X	Autoload.php:
+		Autoload[helper]
+X	Routes.php:
+		Route[default_controller]
+X	Config.php
+		Config[base_url]
+		Config[index_page]
+	
+Setup Controllers
+X	Gamewebsite.php
+		function index(redirect to home function)
+		function home
+			load views
+Setup Views
+X	Includes
+		header.php
+		footer.php
+	homepage.php
+
+May 9, 2023(2nd)
+X	Change bootstrap.min.css to bootstrap.bundle.min.js for javascript
+X	Placed Game Logo in header and properly formatted/aligned/designed/css(8 hours)
+
+May 10, 2023(3rd) (12:00 PM - 5PM)
+X Decorated Header while maintaing responsiveness(Incomplete)
+
+
+May 14, 2023(9:00 AM/10:00 AM - 6:00PM)
+X Top Side Background Image
+	BG Image Box-Shadows Inner
+	Welcome Section(Game Statement)
+X PlaceHolder Video Trailer
+X Promotional Tag Line(Explore,Learn,Survive)
+	X Blank Underline
+
+May 21, 2023(6:00PM - 9:00PM)
+X stylecontact.css for contactpage
+	Black Shadow Box
+		Telephone Icon For Contact Us
+
+May 24, 2023()
+X New Micro Bloom Trailer
+  forms for contactpage.php
+	Name
+	Email
+	X CSS
+
+May 26, 2023 - May 28, 2023()
+X Contact Functionality for Contact Page(Back-End)
+	XSMTP SERVER
+	XGmail Sending
+
+May 31, 2023()
+X Revised row.a in container-fluid.bga 
+	Column for Video
+	Column for Description
+		Green Title
+
+X New Container-Fluid in homepage.php
+	flex-container cont3
+		row b 
+			col e
+				Icon
+
+ Navbar Burger Menu(Under Progress)
+
+June 1, 2023()
+
+June 3, 2023()
+X Icons and Containers for Game Features
+	Brainstorming colors
+	Craft Feature
+
+June 4, 2023
+	Combat Feature
+	Explore Feature
+
+June 6, 2023
+X Tested on 000webhost for hosting
+X Further Homepage progress
+
+June 10, 2023
+x Setting SMTP server to 000webhost(Unresolved/Incomplete)
+
+June 11, 2023(12:00PM-10:00PM)
+X Download Button CSS & HTML
+	Removed background from div parent and put it to <a> children element and used padding to adjust backgruond color width & height
+X Controller for about page created
+X CSS stylesheet file created for aboutpage
+	Reused Landing page photo from homepage
+X PHP View file created for about page named: aboutpage.php
+	Created Header Text inside landing page photo 
+	Made a row for developers section
+		Made a column inside the class "row about a" for the project manager
+		Made a column inside the class "row about b" for the head programmer
+X Download Functionality for Download Button in Homepage(BACKEND)
+	Microbloom Gmail file inside folder
+		Downloadable from website
+
+
+June 12, 2023(10:00AM-4:00PM)
+X Made a row about-team before row about a
+	Made a team-header and a hr divider for underline effect
+X Made a column inside the class "row about c" for the Web Developer,UI/UX Designer
+	Made a description header and text
+X Made a column inside the class "row about d" for the head animator, lead game artist
+	Made a description header and text
+
+X Made row for home-information
+	made row for system-requirement
+		made col for system-header
+	made col for minimum-specs
+	made col for recommended-specs
+
+June 13, 2023(12:00PM - 6:00PM)
+X Requirements Table
+	responsiveness
+X Footer
+X Made Admin Controller for CMS of gallerypage
+X Made Admin_model.php for database of gallerypage database
+X Made admingallerypage View for display of editable admin gallery page
+X Trying to learn how to code the backend of admin editable gallery page to display for non admin gallery page
+
+X Made a microbloomdb in phpmyadmin for gallery page testing of CMS
+	Made a pictureitems table for picture gallery
+		made 3 columns, pictureid,picturename,pictureimage
+		set pictureid to auto increment and primary
+
+X Configured database.php
+	set databse => microbloomdb
+
+June 15,2023(10:00PM )  - 54%
+
+X Autoload libary for database and upload
+
+June 16, 2023(4:00PM - June 17 8:00AM, 6:00PM - 8:00PM) - 90%
+X Admin_model
+	debugging
+X admingallerypage
+	debugging & styling
+X admin Controller
+	debugging
+x gallerypage(non-admin)
+	styling, debugging
+
+Tons of debugging
+
+June 18, 2023(12:00PM - 6:00PM)
+X Insertion of data to gallery
+	modified it so that if same file uploaded twice, it will take dupe file./image's modified filename since the modified filename is only appended after file upload.
+	so the modified filename's url is being uploaded to the database instead of just the original filename's url.
+X Removed 000webhost banner through style.css(ONLY IMPLEMENTED ON THE LIVE SERVER)
+	CSS TO BE IMPLEMENTED YET FOR THE LOCALHOST
+X Fixed the header admin for login display form, where it the logout button will already appear in the navbar even while the user isn't logged in yet
+
+June 23, 2023(3:00PM - )
+X OVERHAUL OR CHANGING THE DESIGN SCHEME / COLOR SCHEMES
+	CSS, copy the design of the homepage
+
+June 24, 2023(4:00pm - 9:00pm)
+X	Change Scheme of homepage, aboutpage
+X	Changes made in CSS, forgot to log the specifics in header
+
+June 25, 2023(12:00PM - 9:30PM)
+X Homepage, AboutPage, Admin Page, Contact Page, Gallery CSS
+X Galery Design, and ABout and Admin and Homepage COlor Scheme Changed
+X Bunch of debugging, css and html inline styling changed and added(FORGOT TO SPECIFY SPECIFICS AGAIN DUE TO NOT LOGGING CONSTANTLY)
+
+October 27, 2023(4:00PM - 12:00AM)
+X Changed button function of admin views so that the admin side  of the about page and gallery page will pop up instead of reverting to a non-admin views
+X Added function getAboutpageContent in Admin_model
+X Added aboutitems table inside microbloomdb for the cms database of about page for admin use
+X In Admin controller, added aboutadmin function.(Still unfinished and needs polishing)

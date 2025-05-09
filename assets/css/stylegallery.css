@@ -1,0 +1,101 @@
+.flex-container.admin{
+    display: flex;
+    /* background-color: #2c2c2c; */
+    background-color: #17273a;
+}
+.row-admin{
+    width: 100%;
+}
+
+.table{
+    color: #ccc;
+}
+
+.container-fluid.admin{
+    padding: 0;
+}
+
+.form-control.namefield{
+    margin: 0;
+}
+.row-add{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5%;
+    background-color: #17273a;
+}
+
+img.round{
+    height: 200px;
+}
+
+.flex-container.login{
+    display:flex;
+    justify-content: center;
+    min-height: 1080px;
+    
+}
+.row.login{
+    width: 50%;
+    background-color: #202020;
+}
+
+.form-control.login{
+    border-radius: 0px;
+    border-color: #9999;
+    border-width: thin;
+    outline: none;
+    margin-top: 0;
+}
+.form-control.login:focus{
+    outline: none;
+}
+.form-group.login{
+    color: #ccc;
+}
+
+input:focus{
+    outline:none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+.container.login{
+    padding-top: 5%;
+    padding-top: 5%;
+}
+
+.btn.login{
+    font-family: "Lato",sans-serif;
+    width: 40%;
+    height: 2em;
+    font-size: 100%;
+    padding: 0;
+    font-weight: 900;
+}
+
+.container.login-main{
+    margin: 0;
+    min-width: 100%;
+    background-color: #3b3b3b;
+}
+
+.admin-footer{
+    bottom: 0;
+    position:unset;
+    
+}
+
+
+
+.input-admin{
+    color: #ccc;
+}
+
+.form-group.login{
+    background-color: #2e3f52;
+    padding: 5% 5%;
+    border-radius: 30px;
+}
+
+
